@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Delete Appointment Confirmation</title>
+</head>
+<body>
+      <h1>Delete Appointment Confirmation</h1>
+      <p>Are you sure you want to delete this appointment?</p>
+      <form method="POST" action="/appointments/delete">
+            <input type="hidden" name="id" value="appointment_id_here">
+            <button type="submit">Delete</button>
+      </form>
+      <a href="/appointments">Cancel</a>
+</body>
+</html>
